@@ -10,6 +10,12 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.InitializingBean;
 
+/*
+ * This is the class used to instantiate the Database on load
+ * Sathiyanarayana Kumar.N
+ * 
+ */
+
 public class Database implements InitializingBean {
     private static Logger logger = LoggerFactory.getLogger(Database.class);
     
