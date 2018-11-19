@@ -72,6 +72,13 @@
 			<version>${mule.version}</version>
 			<scope>provided</scope>
 		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.jfrog.maven.annomojo/maven-plugin-tools-anno -->
+		<dependency>
+			<groupId>org.jfrog.maven.annomojo</groupId>
+			<artifactId>maven-plugin-tools-anno</artifactId>
+			<version>1.4.0</version>
+		</dependency>
+
 
 		<!-- https://mvnrepository.com/artifact/org.apache.derby/derby -->
 
