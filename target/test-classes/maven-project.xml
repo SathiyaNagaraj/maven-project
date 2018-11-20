@@ -17,7 +17,7 @@ http://www.mulesoft.org/schema/mule/jms http://www.mulesoft.org/schema/mule/jms/
     <jms:activemq-connector name="Active_MQ"  validateConnections="true" doc:name="Active MQ" brokerURL="vm://localhost"/>
     <flow name="mavenHello">
         <http:listener config-ref="httpList" path="/hello" doc:name="HTTP"/>
-        <set-payload value="#['Hello Mave']" doc:name="Set Payload"/>
+        <set-payload value="#['Hello Maven']" doc:name="Set Payload"/>
         <logger message="#[payload]" level="INFO" doc:name="Logger"/>
     </flow>
     <flow name="maven-projectFlow">
